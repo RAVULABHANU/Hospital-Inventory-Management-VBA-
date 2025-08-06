@@ -1,0 +1,21 @@
+Item ID,Item Name,Quantity,Reorder Level
+I100,Gloves,50,40
+I101,Masks,200,150
+I102,Syringe,150,100
+I103,Bandage,80,60
+I104,Scalpel,30,20
+I105,Stethoscope,40,30
+I106,Thermometer,25,20
+I107,IV Drip,60,50
+I108,Oxygen Cylinder,10,5
+I109,Blood Bag,70,50
+I110,Gloves,55,40
+I111,Masks,210,160
+I112,Syringe,145,110
+I113,Bandage,75,65
+I114,Scalpel,35,25
+I115,Stethoscope,38,30
+I116,Thermometer,20,18
+I117,IV Drip,58,48
+I118,Oxygen Cylinder,12,6
+I119,Blood Bag,65,55
