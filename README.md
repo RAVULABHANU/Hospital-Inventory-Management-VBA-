@@ -1,23 +1,19 @@
 # Hospital Inventory Management System (VBA)
 
-A robust Excel-based solution for tracking medical supplies, medications, and equipment with automated expiry alerts.
+An Excel-based tool for tracking medical supplies and equipment with automated low-stock alerts.
 
 ## Features
--  Real-time inventory dashboard
--  Expiry date tracking with color-coding
--  Usage trend analysis
--  Automated reorder reports
--  User access controls
+- Highlights items below the reorder level (color-coded in red)
+- Simple inventory data management
+- Works with hospital inventory CSV data
+- Easy to integrate into existing hospital Excel systems
 
 ## How to Use
-1. Open `HospitalInventory.xlsm`
-2. Enable macros when prompted
-3. Use the main dashboard to navigate features
-
-## Screenshots
-![Dashboard Preview](https://via.placeholder.com/600x400?text=Inventory+Dashboard)
+1. Open `hospital_inventory.csv` in Excel and name the sheet `Inventory`
+2. Import `Module1.bas` into your Excel VBA editor
+3. Run the macro `AnalyzeInventory` to automatically highlight low-stock items
 
 ## Code Highlights
-- Dynamic array handling for fast lookups
-- Custom user forms for data entry
-- Automated email alerts for low stock
+- Uses VBA loops and conditionals for real-time analysis
+- Modular code structure for easy extension
+- Simple and lightweight for quick deployment
